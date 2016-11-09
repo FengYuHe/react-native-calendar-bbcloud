@@ -5,18 +5,14 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:christopherdro/react-native-calendar.git"
+    "url": "git+ssh://git@github.com/christopherdro/react-native-calendar.git"
   },
   "scripts": {
     "eslint": "eslint ."
   },
   "author": "Christopher Dro <casheghian@gmail.com> (https://github.com/christopherdro)",
   "contributors": [
-    {
-      "name": "David Sanderson",
-      "email": "coderdave@gmail.com",
-      "url": "https://github.com/coderdave"
-    }
+    "David Sanderson <coderdave@gmail.com> (https://github.com/coderdave)"
   ],
   "license": "MIT",
   "dependencies": {
@@ -30,5 +26,16 @@
     "eslint-plugin-react": "^4.3.0",
     "react": "^15.1.0",
     "react-native": "^0.27.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/christopherdro/react-native-calendar/issues"
+  },
+  "homepage": "https://github.com/christopherdro/react-native-calendar#readme",
+  "directories": {
+    "example": "example"
+  },
+  "keywords": [
+    "react-native-calendar",
+    "react-native-calendar-bbcloud"
+  ]
 }
