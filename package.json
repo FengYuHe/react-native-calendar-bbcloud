@@ -1,19 +1,23 @@
 {
-  "name": "react-native-calendar",
-  "version": "0.7.0",
-  "description": "Simple Calendar Component for React Native",
+  "name": "react-native-calendar-bbcloud",
+  "version": "1.0.0",
+  "description": "forked from christopherdro/react-native-calendar update apply to bbcloud for app flower",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/christopherdro/react-native-calendar.git"
+  "directories": {
+    "example": "example"
   },
   "scripts": {
-    "eslint": "eslint ."
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Christopher Dro <casheghian@gmail.com> (https://github.com/christopherdro)",
-  "contributors": [
-    "David Sanderson <coderdave@gmail.com> (https://github.com/coderdave)"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FengYuHe/react-native-calendar-bbcloud.git"
+  },
+  "keywords": [
+    "react-native-calendar",
+    "react-native-calendar-bbcloud"
   ],
+  "author": "FengYuHe <heyufeng8080@gmail.com> (https://github.com/FengYuHe)",
   "license": "MIT",
   "dependencies": {
     "moment": ">=2.10.3"
@@ -28,14 +32,7 @@
     "react-native": "^0.27.0"
   },
   "bugs": {
-    "url": "https://github.com/christopherdro/react-native-calendar/issues"
+    "url": "https://github.com/FengYuHe/react-native-calendar-bbcloud/issues"
   },
-  "homepage": "https://github.com/christopherdro/react-native-calendar#readme",
-  "directories": {
-    "example": "example"
-  },
-  "keywords": [
-    "react-native-calendar",
-    "react-native-calendar-bbcloud"
-  ]
+  "homepage": "https://github.com/FengYuHe/react-native-calendar-bbcloud#readme"
 }
