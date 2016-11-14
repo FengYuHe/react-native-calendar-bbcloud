@@ -1,6 +1,6 @@
 {
   "name": "react-native-calendar-bbcloud",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "forked from christopherdro/react-native-calendar update apply to bbcloud for app flower",
   "main": "index.js",
   "directories": {
