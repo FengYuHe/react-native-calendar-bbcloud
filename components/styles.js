@@ -4,7 +4,7 @@ const DEVICE_WIDTH = Dimensions.get('window').width;
 
 const styles = StyleSheet.create({
   calendarContainer: {
-    backgroundColor: '#f7f7f7',
+    backgroundColor: '#fff',
   },
   monthContainer: {
     width: DEVICE_WIDTH,
@@ -26,18 +26,20 @@ const styles = StyleSheet.create({
   },
   calendarHeading: {
     flexDirection: 'row',
-    borderTopWidth: 1,
-    borderBottomWidth: 1,
+    borderTopWidth: 0,
+    borderBottomWidth: 0.5,
+    borderColor: '#DEDFE0'
   },
   dayHeading: {
     flex: 1,
-    fontSize: 15,
+    fontSize: 12,
     textAlign: 'center',
     marginVertical: 5,
+    color: '#333'
   },
   weekendHeading: {
     flex: 1,
-    fontSize: 15,
+    fontSize: 12,
     textAlign: 'center',
     marginVertical: 5,
     color: '#cccccc',
@@ -49,7 +51,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     padding: 5,
     width: DEVICE_WIDTH / 7,
-    borderTopWidth: 1,
+    borderTopWidth: 0,
     borderTopColor: '#e9e9e9',
   },
   dayButtonFiller: {
@@ -60,7 +62,8 @@ const styles = StyleSheet.create({
     fontSize: 14,
     alignSelf: 'center',
     color: '#333',
-    paddingTop: 3
+    paddingTop: 3,
+    textAlign: 'center'
   },
   eventIndicatorFiller: {
     marginTop: 3,
@@ -94,7 +97,7 @@ const styles = StyleSheet.create({
   },
   selectedDayText: {
     color: 'white',
-    fontWeight: 'bold',
+    // fontWeight: 'bold',
   },
   weekendDayText: {
     color: '#333',

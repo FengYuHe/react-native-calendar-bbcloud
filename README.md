@@ -6,7 +6,7 @@ Portrait mode only
 
 ## Installation
 
-`npm install react-native-calendar --save`
+`npm install react-native-calendar-bbcloud --save`
 
 ## Usage
 ```javascript
